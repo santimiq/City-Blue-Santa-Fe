@@ -86,7 +86,7 @@ export default function ContentSectionTwo() {
                 className="borde-modal"
               />
             </Col>
-            <Row className="align-items-center justify-content-center justify-content-sm-start justify-content-lg-start ">
+            <Row className="align-items-center justify-content-center justify-content-sm-start justify-content-lg-start mt-6 ">
               <Col xs="10" className="col-xl-5 col-lg-6 col-md-10 col-xs-10">
                 <Content.Box>
                   <Content.Title as="h2">
