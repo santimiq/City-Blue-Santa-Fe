@@ -9,8 +9,8 @@ import hoja1 from "~image/depto-proto/hojas-1.600.jpg"
 import hoja2 from "~image/depto-proto/hojas-2.600.jpg"
 import hoja3 from "~image/depto-proto/hojas-3.600.jpg"
 import hoja4 from "~image/depto-proto/hojas-4.600.jpg"
-import hoja9 from "~image/depto-proto/hojas-5.600.jpg"
 import hoja6 from "~image/depto-proto/hojas-6.600.jpg"
+import hoja8 from "~image/depto-proto/hojas-8.600.jpg"
 
 import ModalImage from "react-modal-image"
 import "react-tabs/style/react-tabs.css"
@@ -42,6 +42,12 @@ export default function FeatureSection() {
                 </Tab>
                 <Tab>
                   <span className="titulo">60.75 m2</span> <br />{" "}
+                  <span className="descripcion">
+                    1 Recámara + Estudio + 1 Baño
+                  </span>
+                </Tab>
+                <Tab>
+                  <span className="titulo">60.75 m2</span> <br />{" "}
                   <span className="descripcion">2 Recámaras + 1 Baño</span>
                 </Tab>
                 <Tab>
@@ -53,8 +59,8 @@ export default function FeatureSection() {
                   <span className="descripcion"> 2 Recámaras + 2 Baños</span>
                 </Tab>
                 <Tab>
-                  <span className="titulo">119.40 m2</span> <br />{" "}
-                  <span className="descripcion">3 Recámaras + 2 Baños</span>
+                  <span className="titulo">103.35 m2</span> <br />{" "}
+                  <span className="descripcion">3 Recámaras + 2.5 Baños</span>
                 </Tab>
               </TabList>
 
@@ -62,7 +68,6 @@ export default function FeatureSection() {
                 <ModalImage
                   small={hoja2}
                   large={hoja2}
-                  alt="Sala"
                   className="borde-modal"
                 />
               </TabPanel>
@@ -70,7 +75,13 @@ export default function FeatureSection() {
                 <ModalImage
                   small={hoja4}
                   large={hoja4}
-                  alt="Sala"
+                  className="borde-modal"
+                />
+              </TabPanel>
+              <TabPanel>
+                <ModalImage
+                  small={hoja4}
+                  large={hoja4}
                   className="borde-modal"
                 />
               </TabPanel>
@@ -78,7 +89,6 @@ export default function FeatureSection() {
                 <ModalImage
                   small={hoja6}
                   large={hoja6}
-                  alt="Sala"
                   className="borde-modal"
                 />
               </TabPanel>
@@ -86,7 +96,6 @@ export default function FeatureSection() {
                 <ModalImage
                   small={hoja3}
                   large={hoja3}
-                  alt="Sala"
                   className="borde-modal"
                 />
               </TabPanel>
@@ -94,15 +103,13 @@ export default function FeatureSection() {
                 <ModalImage
                   small={hoja1}
                   large={hoja1}
-                  alt="Sala"
                   className="borde-modal"
                 />
               </TabPanel>
               <TabPanel>
                 <ModalImage
-                  small={hoja9}
-                  large={hoja9}
-                  alt="Sala"
+                  small={hoja8}
+                  large={hoja8}
                   className="borde-modal"
                 />
               </TabPanel>
@@ -141,7 +148,7 @@ export default function FeatureSection() {
                   <span className="titulo">83.90 m2</span>{" "}
                 </Tab>
                 <Tab>
-                  <span className="titulo">119.40 m2</span>{" "}
+                  <span className="titulo">103.35</span>{" "}
                 </Tab>
               </TabList>
 
@@ -149,7 +156,6 @@ export default function FeatureSection() {
                 <ModalImage
                   small={hoja2}
                   large={hoja2}
-                  alt="Sala"
                   className="borde-modal"
                 />
               </TabPanel>
@@ -157,7 +163,6 @@ export default function FeatureSection() {
                 <ModalImage
                   small={hoja4}
                   large={hoja4}
-                  alt="Sala"
                   className="borde-modal"
                 />
               </TabPanel>
@@ -165,7 +170,6 @@ export default function FeatureSection() {
                 <ModalImage
                   small={hoja6}
                   large={hoja6}
-                  alt="Sala"
                   className="borde-modal"
                 />
               </TabPanel>
@@ -173,7 +177,6 @@ export default function FeatureSection() {
                 <ModalImage
                   small={hoja3}
                   large={hoja3}
-                  alt="Sala"
                   className="borde-modal"
                 />
               </TabPanel>
@@ -181,15 +184,13 @@ export default function FeatureSection() {
                 <ModalImage
                   small={hoja1}
                   large={hoja1}
-                  alt="Sala"
                   className="borde-modal"
                 />
               </TabPanel>
               <TabPanel>
                 <ModalImage
-                  small={hoja9}
-                  large={hoja9}
-                  alt="Sala"
+                  small={hoja8}
+                  large={hoja8}
                   className="borde-modal"
                 />
               </TabPanel>

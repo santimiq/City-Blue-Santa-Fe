@@ -8,8 +8,8 @@ import banner from "~image/oficina/banner.jpg"
 import bannerBg from "~image/oficina/banner-big.jpg"
 import cubiculo19 from "~image/oficina/cubiculo-19.jpg"
 import cubiculo32 from "~image/oficina/cubiculo-32.jpg"
-import cubiculo60 from "~image/oficina/cubiculo-60.jpg"
 import cubiculo70 from "~image/oficina/cubiculo-70.jpg"
+import cubiculo23 from "~image/oficina/cubiculo-23.jpg"
 import Logo from "~image/logo/cb-logo-blue.png"
 
 export default function ContentSectionTwo() {
@@ -105,7 +105,6 @@ export default function ContentSectionTwo() {
               <ModalImage
                 small={cubiculo19}
                 large={cubiculo19}
-                alt="Sala"
                 className="borde-modal"
               />
               <Content.SubTitleFour as="">
@@ -118,7 +117,6 @@ export default function ContentSectionTwo() {
                 className="borde-modal"
                 small={cubiculo32}
                 large={cubiculo32}
-                alt="Sala"
               />
               <Content.SubTitleFour as="">
                 Oficina 32 <br />
@@ -129,14 +127,14 @@ export default function ContentSectionTwo() {
           <Row className="align-items-center justify-content-center justify-content-lg mt-3">
             <Col xs="5" className="col-xl-5 col-lg-5 col-md-5 col-xs-5">
               <ModalImage
-                small={cubiculo60}
-                large={cubiculo60}
+                small={cubiculo23}
+                large={cubiculo23}
                 alt="Sala"
                 className="borde-modal"
               />
               <Content.SubTitleFour as="">
-                Oficina 60 <br />
-                8.75 m2
+                Oficina 23 <br />
+                23.05 m2
               </Content.SubTitleFour>
             </Col>
             <Col xs="5" className="col-xl-5 col-lg-5 col-md-5 col-xs-5">
@@ -144,7 +142,6 @@ export default function ContentSectionTwo() {
                 className="borde-modal"
                 small={cubiculo70}
                 large={cubiculo70}
-                alt="Sala"
               />
               <Content.SubTitleFour as="">
                 Oficina 70 <br /> 11.15 m2
