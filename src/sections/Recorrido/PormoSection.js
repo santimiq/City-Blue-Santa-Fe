@@ -23,7 +23,11 @@ export default function PromoSection() {
                 <Promo.Text fontColor="#fff" mb="30px">
                   No te pierdas ningún detalle en este recorrido 3D.
                 </Promo.Text>
-                <Promo.Button as={Link} to="https://bit.ly/3inRGbH">
+                <Promo.Button
+                  as={Link}
+                  to="https://bit.ly/3inRGbH"
+                  target="_blank"
+                >
                   Iniciar
                 </Promo.Button>
               </Promo.Box>
