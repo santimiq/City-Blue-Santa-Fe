@@ -144,7 +144,8 @@ PortfolioDetails.Lista = styled(Box)`
     }
   @media (max-width: 578px) {
     li {
-      font-size: 10px;
+      font-size: 14px;
+      display: inline-flex;
     }
   }
 `
