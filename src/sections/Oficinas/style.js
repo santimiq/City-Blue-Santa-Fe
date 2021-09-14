@@ -25,7 +25,7 @@ const Content = styled(Box)`
     padding-bottom: 50px;
   }
   @media (max-width: 578px) {
-    margin-top: 1.5rem !important;
+    padding-top: 1.5rem !important;
     padding-bottom: 30px;
     .prototipos {
       margin-top: 0px;
