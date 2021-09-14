@@ -7,7 +7,7 @@ const Hero = styled(Box)`
   background-size: cover;
   background-position: right top;
   position: relative;
-  z-index: 10000;
+  z-index: 998;
   @media (min-width: 768px) {
     padding-top: 145px;
     padding-bottom: 80px;
