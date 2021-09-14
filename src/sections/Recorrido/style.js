@@ -93,6 +93,9 @@ Promo.Button = styled(Button)`
     color: #002e6d;
     border-color: #fff;
   }
+  &:focus {
+    box-shadow: none !important;
+  }
 `
 Promo.Box = styled(Box)``
 export default Promo
