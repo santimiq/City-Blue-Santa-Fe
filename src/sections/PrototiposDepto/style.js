@@ -5,13 +5,16 @@ const Feature = styled(Box)`
   padding-top: 35px;
   padding-bottom: 50px;
 
+  @media (max-width: 578px) {
+    padding-top: 0px;
+  }
   @media (min-width: 768px) {
     padding-top: 55px;
     padding-bottom: 60px;
   }
 
   @media (min-width: 992px) {
-    padding-top: 85px;
+    padding-top: 0px;
     padding-bottom: 127px;
     .apagar-lg {
       display: none;

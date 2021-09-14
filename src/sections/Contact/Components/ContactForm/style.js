@@ -24,8 +24,8 @@ const Form = styled(Box)`
     background-color: #fff !important;
     border-radius: 50px;
     &:hover {
-      color: #fff !important;
-      background-color: #13396e !important;
+      color: #002e6d !important;
+      background-color: #d5d5d5 !important;
     }
   }
   .form-floating {

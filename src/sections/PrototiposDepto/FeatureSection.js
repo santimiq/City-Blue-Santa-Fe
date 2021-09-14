@@ -11,6 +11,7 @@ import hoja3 from "~image/depto-proto/hojas-3.600.jpg"
 import hoja4 from "~image/depto-proto/hojas-4.600.jpg"
 import hoja6 from "~image/depto-proto/hojas-6.600.jpg"
 import hoja8 from "~image/depto-proto/hojas-8.600.jpg"
+import hoja10 from "~image/depto-proto/hojas-10.600.jpg"
 
 import ModalImage from "react-modal-image"
 import "react-tabs/style/react-tabs.css"
@@ -80,8 +81,8 @@ export default function FeatureSection() {
               </TabPanel>
               <TabPanel>
                 <ModalImage
-                  small={hoja4}
-                  large={hoja4}
+                  small={hoja10}
+                  large={hoja10}
                   className="borde-modal"
                 />
               </TabPanel>
@@ -142,6 +143,9 @@ export default function FeatureSection() {
                   <span className="titulo">60.75 m2</span>{" "}
                 </Tab>
                 <Tab>
+                  <span className="titulo">60.75 m2</span>{" "}
+                </Tab>
+                <Tab>
                   <span className="titulo"> 64.65 m2</span>{" "}
                 </Tab>
                 <Tab>
@@ -163,6 +167,13 @@ export default function FeatureSection() {
                 <ModalImage
                   small={hoja4}
                   large={hoja4}
+                  className="borde-modal"
+                />
+              </TabPanel>
+              <TabPanel>
+                <ModalImage
+                  small={hoja10}
+                  large={hoja10}
                   className="borde-modal"
                 />
               </TabPanel>

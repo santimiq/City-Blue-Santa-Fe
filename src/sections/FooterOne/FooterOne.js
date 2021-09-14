@@ -25,9 +25,7 @@ export default function FooterOne() {
                 <Footer.Address className="widgets-address">
                   <Footer.AddressItem>
                     <i className="fa fa-map-marker-alt" />
-                    <span>
-                      Dirección: <br className="d-block" />
-                    </span>
+                    <span>Dirección:</span>
                     <span>
                       Calle Guillermo González Camarena 200, Santa Fé, Álvaro
                       Obregón, 01210, CDMX
@@ -36,11 +34,11 @@ export default function FooterOne() {
                   <Footer.AddressItem>
                     <i className="fab fa-whatsapp" />
                     <span>
-                      Whatsapp: <br className="d-block" />{" "}
-                      <br className="d-block" />
+                      Whatsapp: <br className="d-block" />
                     </span>
-
-                    <a href="tel:5562133210">55 6213 3210</a>
+                    <a href="tel:5562133210" className="ms-3">
+                      55 6213 3210
+                    </a>
                   </Footer.AddressItem>
                 </Footer.Address>
               </Footer.Widgets>

@@ -9,7 +9,10 @@ const PortfolioDetails = styled(Box)`
   }
 
   @media (min-width: 992px) {
-    padding: 115px 0;
+    padding: 80px 0 30px 0;
+  }
+  @media (max-width: 578px) {
+    padding: 45px 0 30px 0;
   }
 `
 PortfolioDetails.Image = styled(Box)`

@@ -51,7 +51,7 @@ export default function ContentSectionTwo() {
 
             <Col
               xs="10"
-              className="col-6 col-lg-5 offset-lg-2 offset-xl-2 col-xl-4 col-xs-10"
+              className="col-6 col-lg-5 offset-lg-2 offset-xl-2 col-xl-4 col-xs-10 margen-mobile"
             >
               <div>
                 <Content.SubTitle>Características</Content.SubTitle>
@@ -129,7 +129,6 @@ export default function ContentSectionTwo() {
               <ModalImage
                 small={cubiculo23}
                 large={cubiculo23}
-                alt="Sala"
                 className="borde-modal"
               />
               <Content.SubTitleFour as="">

@@ -9,7 +9,7 @@ export default function ContactSction({ ...rest }) {
     <Contact {...rest} id="contacto">
       <Container>
         <Row className="justify-content-center text-center">
-          <Col xs="10" className="col-xl-10 col-md-10">
+          <Col xs="10" className="col-xl-12 col-md-10">
             <Contact.Box mb="45" mbMD="3.135rem" mbLG="80px">
               <Contact.Subtitle as="h6" fontColor="#262729">
                 City Blue | Santa Fe
@@ -25,7 +25,7 @@ export default function ContactSction({ ...rest }) {
               height="550px"
             ></iframe>
           </Col>
-          <Col xs="10" className="col-lg-10 mb-7 mb-lg-0 col-md-10">
+          <Col xs="10" className="col-lg-12 col-xl-12 mb-7 mb-lg-0 col-md-10">
             <ContactForm className="text-start" mt="50px" />
           </Col>
         </Row>

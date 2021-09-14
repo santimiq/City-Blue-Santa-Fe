@@ -25,8 +25,11 @@ const Content = styled(Box)`
     padding-bottom: 50px;
   }
   @media (max-width: 578px) {
-    padding-top: 30px;
+    margin-top: 1.5rem !important;
     padding-bottom: 30px;
+    .prototipos {
+      margin-top: 0px;
+    }
     .margen-arriba {
       margin-top: 30px;
     }
@@ -199,6 +202,9 @@ Content.Lista = styled(Box)`
     a {
       font-size: 16px;
     }
+  }
+  @media (max-width: 578px) {
+    margin-top: 30px;
   }
 `
 Content.List = styled(Box)`

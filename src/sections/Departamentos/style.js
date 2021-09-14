@@ -50,10 +50,14 @@ PortfolioDetails.Title = styled(Heading)`
 
   @media (min-width: 768px) {
     font-size: 35px;
+    margin-bottom: 35px;
   }
 
   @media (min-width: 992px) {
     font-size: 42px;
+  }
+  @media (max-width: 578px) {
+    margin-bottom: 25px;
   }
 `
 
@@ -71,7 +75,7 @@ PortfolioDetails.List = styled(Box)`
   padding: 0;
   margin: 0;
   li {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 500;
     letter-spacing: normal;
     line-height: 25px;

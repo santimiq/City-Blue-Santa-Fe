@@ -3,7 +3,7 @@ import { Link } from "~components"
 import { Box, Heading, Button, Paragraph } from "~styled"
 
 const Content = styled(Box)`
-  padding-top: 75px;
+  padding-top: 0px;
   padding-bottom: 60px;
   background-color: #f2f2f2;
   .borde-modal {
@@ -24,7 +24,7 @@ const Content = styled(Box)`
     }
   }
   @media (min-width: 992px) {
-    padding-top: 100px;
+    padding-top: 30px;
     padding-bottom: 50px;
   }
   @media (max-width: 578px) {
