@@ -36,7 +36,7 @@ export default function ContentSectionTwo() {
 
                 <Content.Text>
                   {" "}
-                  <SuperTag value="Trabaja en espacios prácticos y de pequeños metrajes, en las que se une la privacidad del concepto tradicional de oficina con la comodidad y vesatilidad de los servicios que ofrece un business center, con centro de copiado, salas de juntas y cafetería." />{" "}
+                  <SuperTag value="Trabaja en espacios prácticos y de pequeños metrajes, en los que se une la privacidad del concepto tradicional de oficina con la comodidad y vesatilidad de los servicios que ofrece un business center, con centro de copiado, salas de juntas y cafetería." />{" "}
                 </Content.Text>
               </Content.Box>
               <Content.Lista as="ul">

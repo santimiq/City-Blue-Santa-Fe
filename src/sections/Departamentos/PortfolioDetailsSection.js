@@ -56,7 +56,7 @@ export default function PortfolioDetailsSection() {
                         <span>44.90 a 119.40 m2</span>
                       </li>
                       <li>
-                        <span>1,2 y 3 recámaras</span>
+                        <span>1, 2 y 3 recámaras</span>
                       </li>
                       <li>
                         <span>1 o 2 baños</span>

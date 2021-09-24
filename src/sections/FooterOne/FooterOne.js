@@ -27,8 +27,8 @@ export default function FooterOne() {
                     <i className="fa fa-map-marker-alt" />
                     <span>Dirección:</span>
                     <span>
-                      Calle Guillermo González Camarena 200, Santa Fé, Álvaro
-                      Obregón, 01210, CDMX
+                      Calle Guillermo González Camarena 200, Santa Fé, <br />{" "}
+                      Álvaro Obregón, 01210, CDMX
                     </span>
                   </Footer.AddressItem>
                   <Footer.AddressItem>

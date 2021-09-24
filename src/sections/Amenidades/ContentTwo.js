@@ -44,7 +44,7 @@ export default function ContentSectionTwo() {
                 </Content.Title>
                 <Content.SubTitle as="h5">
                   {" "}
-                  <SuperTag value="Elige como vivir" />{" "}
+                  <SuperTag value="Elige cómo vivir" />{" "}
                 </Content.SubTitle>
 
                 <Content.Text>
