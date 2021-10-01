@@ -4,8 +4,7 @@ import Content from "./style"
 import { Link, SuperTag } from "~components"
 import { Col, Container, Row } from "react-bootstrap"
 import ModalImage from "react-modal-image"
-import banner from "~image/oficina/banner.jpg"
-import bannerBg from "~image/oficina/banner-big.jpg"
+import banner from "~image/oficina/banner.jpeg"
 import cubiculo19 from "~image/oficina/cubiculo-19.jpg"
 import cubiculo32 from "~image/oficina/cubiculo-32.jpg"
 import cubiculo70 from "~image/oficina/cubiculo-70.jpg"
@@ -81,25 +80,25 @@ export default function ContentSectionTwo() {
             <Col className="col-xl-12 col-lg-12 col-md-10 col-xs-10">
               <ModalImage
                 small={banner}
-                large={bannerBg}
-                alt="Render Oficina"
+                large={banner}
                 className="borde-modal"
               />
             </Col>
-            <Row className="align-items-center justify-content-center justify-content-sm-start justify-content-lg-start mt-6 ">
-              <Col xs="10" className="col-xl-5 col-lg-6 col-md-10 col-xs-10">
-                <Content.Box>
-                  <Content.Title as="h2">
-                    {" "}
-                    <SuperTag className="prototipos" value="Prototipos" />{" "}
-                  </Content.Title>
-                  <Content.SubTitleThree as="">
-                    Oficinas City Blue Santa Fe
-                  </Content.SubTitleThree>
-                </Content.Box>
-              </Col>
-            </Row>
           </Row>
+          <Row className="align-items-center justify-content-center justify-content-sm-start justify-content-lg-start mt-6 ">
+            <Col xs="10" className="col-xl-5 col-lg-6 col-md-10 col-xs-10">
+              <Content.Box>
+                <Content.Title as="h2">
+                  {" "}
+                  <SuperTag className="prototipos" value="Prototipos" />{" "}
+                </Content.Title>
+                <Content.SubTitleThree as="">
+                  Oficinas City Blue Santa Fe
+                </Content.SubTitleThree>
+              </Content.Box>
+            </Col>
+          </Row>
+
           <Row className="align-items-center justify-content-center justify-content-lg mt-3">
             <Col xs="5" className="col-xl-5 col-lg-6 col-md-5 col-xs-5">
               <ModalImage
