@@ -40,6 +40,7 @@ const Form = styled(Box)`
 
     textarea {
       min-height: 175px;
+      color: #fff;
 
       & ~ label {
         margin-top: 20px;

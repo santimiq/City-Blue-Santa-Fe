@@ -7,6 +7,9 @@ const Footer = styled(Box)`
   padding-bottom: 20px;
   background-color: rgba(0, 46, 109, 1) !important;
 
+  .aviso {
+    color: white !important;
+  }
   @media (min-width: 768px) {
     padding-top: 80px;
   }

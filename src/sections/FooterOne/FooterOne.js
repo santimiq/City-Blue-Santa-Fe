@@ -84,7 +84,10 @@ export default function FooterOne() {
             </Footer.Text>
             <Footer.Copyright>
               <Footer.CopyrightText>
-                © 2021 City Blue Santa Fe | Todos los derechos reservados
+                © 2021 City Blue Santa Fe | Todos los derechos reservados |{" "}
+                <Link to="aviso" class="aviso">
+                  Aviso de privacidad
+                </Link>
               </Footer.CopyrightText>
             </Footer.Copyright>
           </Col>
