@@ -1,15 +1,20 @@
 import React from "react"
 import { Col, Container, Row } from "react-bootstrap"
+import Logo from "~image/logo/cb-logo-sup-blue.png"
+
 import Terms from "./style"
 export default function TermsCondition() {
   return (
     <Terms>
       <Container>
         <Row className="justify-content-center">
-          <Col className="col-xl-7 col-lg-8 col-md-11 text-center">
+          <Col className="col-xl-8 col-lg-8 col-md-6 col-xs-12 text-center">
             <Terms.Box>
               <Terms.Title as="h2">Aviso de Privacidad</Terms.Title>
             </Terms.Box>
+          </Col>
+          <Col className="col-xl-4 col-lg-4 col-md-6 col-xs-12 text-center">
+            <img src={Logo} />
           </Col>
         </Row>
         <Row className="justify-content-center">

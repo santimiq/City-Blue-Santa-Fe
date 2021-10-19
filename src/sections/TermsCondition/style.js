@@ -5,6 +5,11 @@ const Terms = styled(Box)`
   padding-top: 20px;
   padding-bottom: 20px;
   background: #e5e5e5;
+
+  @media (max-width: 578px) {
+    padding-top: 150px;
+    padding-bottom: 100px;
+  }
   @media (min-width: 768px) {
     padding-top: 60px;
     padding-bottom: 60px;
