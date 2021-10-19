@@ -23,7 +23,7 @@ export default function ContactForm({ ...rest }) {
           name="contact"
           method="post"
           data-netlify="true"
-          data-netlify-honeypot="bot-field"
+          data-netlify-recaptcha="true"
           action="/"
         >
           <input type="hidden" name="form-name" value="contact" />
@@ -109,8 +109,8 @@ export default function ContactForm({ ...rest }) {
                 </div>
               </div>
             </div>
+            <div data-netlify-recaptcha="true"></div>
           </div>
-          <div data-netlify-recaptcha="true"></div>
         </form>
       </div>
     </Form>
