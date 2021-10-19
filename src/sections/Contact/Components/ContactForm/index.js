@@ -1,15 +1,29 @@
 import React from "react"
 import Form from "./style"
+import { useState } from "react"
 
 export default function ContactForm({ ...rest }) {
+  const [agree, setAgree] = useState(false)
+
+  const checkboxHandler = () => {
+    // if agree === true, it will be set to false
+    // if agree === false, it will be set to true
+    setAgree(!agree)
+    // Don't miss the exclamation mark
+  }
+
+  // When the button is clicked
+
   return (
     <Form {...rest}>
       <h3 className="form-title">Escríbenos</h3>
       <p className="form-whatsapp">Whatsapp: 55 6213 3210</p>
       <div className="contact-form">
         <form
-          action="https://getform.io/f/391e18c8-105e-4cd7-8024-63c6d7f6c5b5"
+          name="contact"
           method="POST"
+          data-netlify="true"
+          data-netlify-recaptcha="true"
         >
           <div className="row">
             <div className="col-lg-4 mb-4">
@@ -42,7 +56,7 @@ export default function ContactForm({ ...rest }) {
                   className="form-control"
                   placeholder="Leave a comment here"
                   id="floatinginput2"
-                  name="telefono"
+                  name="teléfono"
                   type="number"
                 />
                 <label htmlFor="floatinginput2">Teléfono</label>
@@ -72,13 +86,12 @@ export default function ContactForm({ ...rest }) {
                       className="form-check-input bg-white float-none mt-0"
                       type="checkbox"
                       defaultValue
-                      id="flexCheckDefault"
+                      // id="flexCheckDefault"
                       name="Terminos"
+                      id="agree"
+                      onChange={checkboxHandler}
                     />
-                    <label
-                      className="form-check-label"
-                      htmlFor="flexCheckDefault"
-                    >
+                    <label className="form-check-label" htmlFor="agree">
                       Estoy de acuerdo con los términos y condiciones.
                     </label>
                   </div>
@@ -87,6 +100,7 @@ export default function ContactForm({ ...rest }) {
                   <button
                     type="submit"
                     className="btn btn--lg-2 shadow--torch-red-3 rounded-55 boton-enviar"
+                    disabled={!agree}
                   >
                     Enviar
                   </button>
@@ -94,6 +108,7 @@ export default function ContactForm({ ...rest }) {
               </div>
             </div>
           </div>
+          <div data-netlify-recaptcha="true"></div>
         </form>
       </div>
     </Form>
