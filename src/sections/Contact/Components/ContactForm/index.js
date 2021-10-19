@@ -24,7 +24,6 @@ export default function ContactForm({ ...rest }) {
           method="post"
           data-netlify="true"
           data-netlify-recaptcha="true"
-          action="/"
         >
           <input type="hidden" name="form-name" value="contact" />
           <div className="row">
@@ -106,10 +105,10 @@ export default function ContactForm({ ...rest }) {
                   >
                     Enviar
                   </button>
+                  <div data-netlify-recaptcha="true"></div>
                 </div>
               </div>
             </div>
-            <div data-netlify-recaptcha="true"></div>
           </div>
         </form>
       </div>
