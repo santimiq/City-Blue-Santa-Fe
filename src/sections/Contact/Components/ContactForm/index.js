@@ -2,34 +2,7 @@ import React from "react"
 import Form from "./style"
 import { useState } from "react"
 
-function encode(data) {
-  return Object.keys(data)
-    .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
-    .join("&")
-}
-
 export default function ContactForm({ ...rest }) {
-  const [state, setState] = React.useState({})
-
-  const handleChange = e => {
-    setState({ ...state, [e.target.name]: e.target.value })
-  }
-
-  const handleSubmit = e => {
-    e.preventDefault()
-    const form = e.target
-    fetch("/", {
-      method: "POST",
-      headers: { "Content-Type": "application/x-www-form-urlencoded" },
-      body: encode({
-        "form-name": form.getAttribute("name"),
-        ...state,
-      }),
-    })
-      .then(() => navigate(form.getAttribute("action")))
-      .catch(error => alert(error))
-  }
-
   return (
     <Form {...rest}>
       <h3 className="form-title">Escríbenos</h3>
@@ -38,17 +11,16 @@ export default function ContactForm({ ...rest }) {
         <form
           name="contact"
           method="post"
-          action="/mail"
           data-netlify="true"
+          onSubmit="submit"
+          action="/mail"
           data-netlify-honeypot="bot-field"
-          onSubmit={handleSubmit}
         >
           {/* The `form-name` hidden field is required to support form submissions without JavaScript */}
           <input type="hidden" name="form-name" value="contact" />
           <p hidden>
             <label>
-              Don’t fill this out:{" "}
-              <input name="bot-field" onChange={handleChange} />
+              Don’t fill this out: <input name="bot-field" />
             </label>
           </p>
 
@@ -61,7 +33,6 @@ export default function ContactForm({ ...rest }) {
                   id="floatinginput3"
                   name="nombre"
                   type="text"
-                  onChange={handleChange}
                 />
                 <label htmlFor="floatinginput3">Nombre</label>
               </div>
@@ -74,7 +45,6 @@ export default function ContactForm({ ...rest }) {
                   id="floatinginput"
                   name="email"
                   type="email"
-                  onChange={handleChange}
                 />
                 <label htmlFor="floatinginput">Correo Electrónico*</label>
               </div>
@@ -87,7 +57,6 @@ export default function ContactForm({ ...rest }) {
                   id="floatinginput2"
                   name="teléfono"
                   type="number"
-                  onChange={handleChange}
                 />
                 <label htmlFor="floatinginput2">Teléfono</label>
               </div>
@@ -102,7 +71,6 @@ export default function ContactForm({ ...rest }) {
                   defaultValue={""}
                   name="mensaje"
                   type="text"
-                  onChange={handleChange}
                 />
                 <label htmlFor="floatingTextarea">
                   ¿Tienes alguna pregunta?{" "}
@@ -112,21 +80,21 @@ export default function ContactForm({ ...rest }) {
             <div className="col-lg-12">
               <div className="row align-items-center mt-3 flex-column">
                 {/* <div className="col-md-8 col-lg-7 col-md-6 col-xl-8 pt-3">
-                  <div className="form-check d-flex align-items-center justify-content-center">
-                    <input
-                      className="form-check-input bg-white float-none mt-0"
-                      type="checkbox"
-                      defaultValue
-                      // id="flexCheckDefault"
-                      name="Terminos"
-                      id="agree"
-                      onChange={handleChange}
-                    />
-                    <label className="form-check-label" htmlFor="agree">
-                      Estoy de acuerdo con los términos y condiciones.
-                    </label>
-                  </div>
-                </div> */}
+                <div className="form-check d-flex align-items-center justify-content-center">
+                  <input
+                    className="form-check-input bg-white float-none mt-0"
+                    type="checkbox"
+                    defaultValue
+                    // id="flexCheckDefault"
+                    name="Terminos"
+                    id="agree"
+                    
+                  />
+                  <label className="form-check-label" htmlFor="agree">
+                    Estoy de acuerdo con los términos y condiciones.
+                  </label>
+                </div>
+              </div> */}
                 <div className="col-md-4 col-lg-5 col-xl-4 text-center   pt-3">
                   <button
                     type="submit"
@@ -253,5 +221,4 @@ export default function ContactForm({ ...rest }) {
   //       </form>
   //     </div>
   //   </Form>
-  // )
 }
