@@ -38,109 +38,91 @@ export default function ContentSectionTwo() {
         <Content.Block>
           <Row className="align-items-center justify-content-center justify-content-lg-start">
             <Col xs="10" className="col-xl-4 col-lg-6 col-md-10 col-xs-10">
-              <Fade left>
-                <Content.Box>
-                  <Content.Title as="h2">
-                    {" "}
-                    <SuperTag value="Amenidades" />{" "}
-                  </Content.Title>
-                  <Content.SubTitle as="h5">
-                    {" "}
-                    <SuperTag value="Elige cómo vivir" />{" "}
-                  </Content.SubTitle>
+              <Content.Box>
+                <Content.Title as="h2">
+                  {" "}
+                  <SuperTag value="Amenidades" />{" "}
+                </Content.Title>
+                <Content.SubTitle as="h5">
+                  {" "}
+                  <SuperTag value="Elige cómo vivir" />{" "}
+                </Content.SubTitle>
 
-                  <Content.Text>
-                    {" "}
-                    <SuperTag value="Disfruta, descansa, relájate, juega y entrena en espacios pensados y equipados especialmenete para cada actividad. Reunirte con la familia y los amigos será una experiencia de otro nivel.<br className='d-none d-xs-block' /><br className='d-none d-xs-block' />¡Vive en donde puedas desarrollar tus gustos y talentos!<br className='d-none d-xs-block' /><br className='d-none d-xs-block' />Además, City Blue te ofrece la comodidad del servicio de Chief Concierge, lo que facilitará tu día a día." />{" "}
-                  </Content.Text>
-                </Content.Box>
-              </Fade>
+                <Content.Text>
+                  {" "}
+                  <SuperTag value="Disfruta, descansa, relájate, juega y entrena en espacios pensados y equipados especialmenete para cada actividad. Reunirte con la familia y los amigos será una experiencia de otro nivel.<br className='d-none d-xs-block' /><br className='d-none d-xs-block' />¡Vive en donde puedas desarrollar tus gustos y talentos!<br className='d-none d-xs-block' /><br className='d-none d-xs-block' />Además, City Blue te ofrece la comodidad del servicio de Chief Concierge, lo que facilitará tu día a día." />{" "}
+                </Content.Text>
+              </Content.Box>
             </Col>
             <Col xs="12" className="col-xl-8 col-lg-8 col-md-12 col-xs-12">
-              <Fade right>
-                <ModalImage
-                  small={alberca}
-                  large={alberca}
-                  alt="Alberca"
-                  className="borde-modal"
-                />
-              </Fade>
+              <ModalImage
+                small={alberca}
+                large={alberca}
+                alt="Alberca"
+                className="borde-modal"
+              />
             </Col>
           </Row>
           <Row className="align-items-center justify-content-center justify-content-lg-start mt-3">
             <Col className="col-xl-4 col-lg-4 col-md-4 col-xs-4">
-              <Fade bottom>
-                <ModalImage
-                  small={juegosSm}
-                  large={juegos}
-                  alt="Juegos"
-                  className="borde-modal"
-                />
-              </Fade>
+              <ModalImage
+                small={juegosSm}
+                large={juegos}
+                alt="Juegos"
+                className="borde-modal"
+              />
             </Col>
             <Col className="col-xl-4 col-lg-4 col-md-4 col-xs-4">
-              <Fade bottom>
-                <ModalImage
-                  className="borde-modal"
-                  small={gymSm}
-                  large={gym}
-                  alt="Gym"
-                />
-              </Fade>
+              <ModalImage
+                className="borde-modal"
+                small={gymSm}
+                large={gym}
+                alt="Gym"
+              />
             </Col>
             <Col className="col-xl-4 col-lg-4 col-md-4 col-xs-4">
-              <Fade bottom>
-                <ModalImage
-                  small={yogaSm}
-                  large={yoga}
-                  alt="Yoga"
-                  className="borde-modal"
-                />
-              </Fade>
+              <ModalImage
+                small={yogaSm}
+                large={yoga}
+                alt="Yoga"
+                className="borde-modal"
+              />
             </Col>
           </Row>
           <Row className="align-items-center justify-content-center justify-content-lg-start mt-3">
             <Col className="col-xl-6 col-lg-6 col-md-6 col-xs-6">
-              <Fade bottom>
-                <ModalImage
-                  small={salaSm}
-                  large={sala}
-                  alt="Sala"
-                  className="borde-modal"
-                />
-              </Fade>
+              <ModalImage
+                small={salaSm}
+                large={sala}
+                alt="Sala"
+                className="borde-modal"
+              />
             </Col>
             <Col className="col-xl-6 col-lg-6 col-md-6 col-xs-6">
-              <Fade bottom>
-                <ModalImage
-                  className="borde-modal"
-                  small={billarSm}
-                  large={billar}
-                  alt="Sala"
-                />
-              </Fade>
+              <ModalImage
+                className="borde-modal"
+                small={billarSm}
+                large={billar}
+                alt="Sala"
+              />
             </Col>
           </Row>
           <Row className="align-items-center justify-content-center justify-content-lg-start mt-3">
             <Col xs="7" className="col-xl-8 col-lg-8 col-md-8 col-xs-8">
-              <Fade bottom>
-                <ModalImage
-                  small={sheratonSm}
-                  large={sheraton}
-                  alt="Sala"
-                  className="borde-modal"
-                />
-              </Fade>
+              <ModalImage
+                small={sheratonSm}
+                large={sheraton}
+                alt="Sala"
+                className="borde-modal"
+              />
             </Col>
             <Col xs="5" className="col-xl-4 col-lg-4 col-md-4 col-xs-4">
-              <Fade bottom>
-                <ModalImage
-                  className="borde-modal"
-                  small={jardinSm}
-                  large={jardin}
-                  alt="Área de mascotas"
-                />
-              </Fade>
+              <ModalImage
+                className="borde-modal"
+                small={jardinSm}
+                large={jardin}
+                alt="Área de mascotas"
+              />
             </Col>
           </Row>
           <Row className="align-items-center justify-content-center justify-content-lg-start margen-arriba">
@@ -148,27 +130,23 @@ export default function ContentSectionTwo() {
               xs="12"
               className="col-xl-6 col-lg-6 col-md-12 col-xs-12 apagar-lg"
             >
-              <Fade left>
-                <ModalImage
-                  small={mapaG}
-                  large={mapaG}
-                  alt="Alberca"
-                  className="borde-modal"
-                />
-              </Fade>
+              <ModalImage
+                small={mapaG}
+                large={mapaG}
+                alt="Alberca"
+                className="borde-modal"
+              />
             </Col>
             <Col
               xs="12"
               className="col-xl-6 col-lg-6 col-md-12 col-xs-12 apagar-sm"
             >
-              <Fade left>
-                <ModalImage
-                  small={mapaGB}
-                  large={mapaGB}
-                  alt="Alberca"
-                  className="borde-modal"
-                />
-              </Fade>
+              <ModalImage
+                small={mapaGB}
+                large={mapaGB}
+                alt="Alberca"
+                className="borde-modal"
+              />
             </Col>
             <div
               xs="6"

@@ -85,13 +85,11 @@ export default function ContentSectionTwo() {
           </Row>
           <Row className="align-items-center justify-content-center justify-content-lg-start mt-3">
             <Col className="col-xl-12 col-lg-12 col-md-10 col-xs-10">
-              <Fade bottom>
-                <ModalImage
-                  small={banner}
-                  large={banner}
-                  className="borde-modal"
-                />
-              </Fade>
+              <ModalImage
+                small={banner}
+                large={banner}
+                className="borde-modal"
+              />
             </Col>
           </Row>
           <Row className="align-items-center justify-content-center justify-content-sm-start justify-content-lg-start mt-6 ">
@@ -110,57 +108,49 @@ export default function ContentSectionTwo() {
 
           <Row className="align-items-center justify-content-center justify-content-lg mt-3">
             <Col xs="5" className="col-xl-5 col-lg-6 col-md-5 col-xs-5">
-              <Fade bottom>
-                <ModalImage
-                  small={cubiculo19}
-                  large={cubiculo19}
-                  className="borde-modal"
-                />
-                <Content.SubTitleFour as="">
-                  Oficina 19 <br />
-                  25.35 m2
-                </Content.SubTitleFour>
-              </Fade>
+              <ModalImage
+                small={cubiculo19}
+                large={cubiculo19}
+                className="borde-modal"
+              />
+              <Content.SubTitleFour as="">
+                Oficina 19 <br />
+                25.35 m2
+              </Content.SubTitleFour>
             </Col>
             <Col xs="5" className="col-xl-5 col-lg-6 col-md-5 col-xs-5">
-              <Fade bottom>
-                <ModalImage
-                  className="borde-modal"
-                  small={cubiculo32}
-                  large={cubiculo32}
-                />
-                <Content.SubTitleFour as="">
-                  Oficina 32 <br />
-                  11.10 m2
-                </Content.SubTitleFour>
-              </Fade>
+              <ModalImage
+                className="borde-modal"
+                small={cubiculo32}
+                large={cubiculo32}
+              />
+              <Content.SubTitleFour as="">
+                Oficina 32 <br />
+                11.10 m2
+              </Content.SubTitleFour>
             </Col>
           </Row>
           <Row className="align-items-center justify-content-center justify-content-lg mt-3">
             <Col xs="5" className="col-xl-5 col-lg-5 col-md-5 col-xs-5">
-              <Fade bottom>
-                <ModalImage
-                  small={cubiculo23}
-                  large={cubiculo23}
-                  className="borde-modal"
-                />
-                <Content.SubTitleFour as="">
-                  Oficina 23 <br />
-                  23.05 m2
-                </Content.SubTitleFour>
-              </Fade>
+              <ModalImage
+                small={cubiculo23}
+                large={cubiculo23}
+                className="borde-modal"
+              />
+              <Content.SubTitleFour as="">
+                Oficina 23 <br />
+                23.05 m2
+              </Content.SubTitleFour>
             </Col>
             <Col xs="5" className="col-xl-5 col-lg-5 col-md-5 col-xs-5">
-              <Fade bottom>
-                <ModalImage
-                  className="borde-modal"
-                  small={cubiculo70}
-                  large={cubiculo70}
-                />
-                <Content.SubTitleFour as="">
-                  Oficina 70 <br /> 11.15 m2
-                </Content.SubTitleFour>
-              </Fade>
+              <ModalImage
+                className="borde-modal"
+                small={cubiculo70}
+                large={cubiculo70}
+              />
+              <Content.SubTitleFour as="">
+                Oficina 70 <br /> 11.15 m2
+              </Content.SubTitleFour>
             </Col>
           </Row>
         </Content.Block>
