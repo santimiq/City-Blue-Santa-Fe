@@ -86,6 +86,9 @@ export default function PortfolioDetailsSection() {
                         <li>
                           <span>Cocina equipada</span>
                         </li>
+                        <li>
+                          <span>Roof Garden Privado</span>
+                        </li>
                       </PortfolioDetails.List>
                     </PortfolioDetails.Content>
                   </div>

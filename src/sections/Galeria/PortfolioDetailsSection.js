@@ -9,6 +9,7 @@ import pimageThree from "~image/galeria/galeriaImg3.jpg"
 import pimageFour from "~image/galeria/galeriaImg4.jpg"
 import pimageFive from "~image/galeria/galeriaImg5.jpg"
 import pimageSix from "~image/galeria/galeriaImg6.jpg"
+import pimageSeven from "~image/galeria/galeriaImg7.jpeg"
 const options = {
   thumbnails: {
     showThumbnails: false,
@@ -112,6 +113,11 @@ export default function PortfolioDetailsSection() {
                 <PortfolioDetails.Slide>
                   <SRLWrapper options={options}>
                     <img src={pimageSix} />
+                  </SRLWrapper>
+                </PortfolioDetails.Slide>
+                <PortfolioDetails.Slide>
+                  <SRLWrapper options={options}>
+                    <img src={pimageSeven} />
                   </SRLWrapper>
                 </PortfolioDetails.Slide>
               </Slider>
